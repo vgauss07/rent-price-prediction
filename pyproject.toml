@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ml-in-production"
+version = "0.1.0"
+description = ""
+authors = ["Jeffrey Ojuederhie <vgauss07@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scikit-learn = "^1.6.1"
+pandas = "^2.2.3"
+regex = "^2024.11.6"
+pydantic-settings = "^2.8.1"
+loguru = "^0.7.3"
+sqlalchemy = "^2.0.39"
+pydantic = "^2.10.6"
+wemake-python-styleguide = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
