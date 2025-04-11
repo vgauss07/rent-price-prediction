@@ -3,7 +3,7 @@ name = "rent-app"
 version = "0.1.0"
 description = ""
 authors = ["Jeffrey Ojuederhie <vgauss07@gmail.com>"]
-packages = [{ include = "rent-app", from="src"}]
+packages = [{ include = "runner.py", from="src"}]
 readme = "README.md"
 
 [tool.poetry.dependencies]
