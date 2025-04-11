@@ -1,8 +1,9 @@
 [tool.poetry]
-name = "ml-in-production"
+name = "rent-app"
 version = "0.1.0"
 description = ""
 authors = ["Jeffrey Ojuederhie <vgauss07@gmail.com>"]
+packages = [{ include = "rent-app", from="src"}]
 readme = "README.md"
 
 [tool.poetry.dependencies]
