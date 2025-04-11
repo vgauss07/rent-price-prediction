@@ -48,3 +48,28 @@ y var: rent
 2025-04-11 16:45:46.410 | INFO     | model.model_service:load_model:56 - Model rf_db_v1 Exists! ->loading Model Configuration File
 2025-04-11 16:45:46.425 | INFO     | model.model_service:predict:78 - Making Prediction!
 2025-04-11 16:45:46.451 | INFO     | __main__:main:40 - Prediction: [2102.78185028]
+2025-04-11 16:49:16.217 | INFO     | model.pipeline.preparation:prepare_data:10 - Starting up Preprocessing Pipeline
+2025-04-11 16:49:16.218 | INFO     | model.pipeline.collection:load_data_from_db:18 - Extracting Data from the Database
+2025-04-11 16:49:16.252 | INFO     | model.pipeline.preparation:prepare_data:14 - Preprocessing Data
+2025-04-11 16:49:16.252 | INFO     | model.pipeline.preparation:_encode_cat_col:35 - Encoding Categorical Columns: ['balcony', 'parking', 'furnished', 'garage', 'storage']
+2025-04-11 16:49:16.265 | INFO     | model.pipeline.preparation:_parse_garden_col:51 - Parsing Garden Column
+2025-04-11 16:49:16.268 | INFO     | model.pipeline.preparation:_encode_bool:26 - Encoding Boolean Column
+2025-04-11 16:49:16.273 | INFO     | model.pipeline.model:build_model:28 - Starting up Model Building Pipeline
+2025-04-11 16:49:16.273 | INFO     | model.pipeline.preparation:prepare_data:10 - Starting up Preprocessing Pipeline
+2025-04-11 16:49:16.273 | INFO     | model.pipeline.collection:load_data_from_db:18 - Extracting Data from the Database
+2025-04-11 16:49:16.286 | INFO     | model.pipeline.preparation:prepare_data:14 - Preprocessing Data
+2025-04-11 16:49:16.286 | INFO     | model.pipeline.preparation:_encode_cat_col:35 - Encoding Categorical Columns: ['balcony', 'parking', 'furnished', 'garage', 'storage']
+2025-04-11 16:49:16.291 | INFO     | model.pipeline.preparation:_parse_garden_col:51 - Parsing Garden Column
+2025-04-11 16:49:16.293 | INFO     | model.pipeline.preparation:_encode_bool:26 - Encoding Boolean Column
+2025-04-11 16:49:16.295 | INFO     | model.pipeline.model:build_model:40 - Building Model
+2025-04-11 16:49:16.295 | INFO     | model.pipeline.model:_get_X_Y:66 - Defining X and Y variables. 
+X vars: ['area', 'bedrooms', 'garden', 'constraction_year', 'balcony_yes', 'storage_yes', 'parking_yes', 'garage_yes', 'furnished_yes']
+y var: rent
+2025-04-11 16:49:16.301 | DEBUG    | model.pipeline.model:_train_model:111 - grid_space = {'n_estimators': [100, 200, 300], 'max_depth': [3, 6, 9, 12]}
+2025-04-11 16:49:45.174 | INFO     | model.pipeline.model:_evaluate_model:123 - Evaluating Model Performance SCORE = 0.6920282966811928
+2025-04-11 16:49:45.193 | INFO     | model.pipeline.model:_save_model:138 - Saving the Model:model/models/rf_db_v1
+2025-04-11 16:49:45.210 | INFO     | __main__:main:23 - Running the Application
+2025-04-11 16:49:45.211 | INFO     | model.model_service:load_model:44 - Checking the existence of the model config file at model/models/rf_db_v1
+2025-04-11 16:49:45.211 | INFO     | model.model_service:load_model:56 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-11 16:49:45.228 | INFO     | model.model_service:predict:78 - Making Prediction!
+2025-04-11 16:49:45.253 | INFO     | __main__:main:40 - Prediction: [2098.59193862]
