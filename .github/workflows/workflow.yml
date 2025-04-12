@@ -31,9 +31,8 @@ jobs:
       - name: Install poetry
         run: |
           curl -sSL https://install.python-poetry.org | python3 - 
-          export PATH=$HOME/.local/bin:PATH
-        with:
-          virtualenvs-in-project: true
+          echo "PATH=$HOME/.local/bin" >> $GITHUB_PATH
+          poetry config virtualenvs.in-project true
 
       - name: Load cached venv
         uses: actions/cache@v4
