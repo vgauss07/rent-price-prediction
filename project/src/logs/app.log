@@ -1,0 +1,10 @@
+2025-04-21 09:55:29.964 | INFO     | __main__:main:23 - Running the Application
+2025-04-21 09:55:29.969 | INFO     | model.model_inference:load_model:50 - Checking the existence of the model config file at model/models/rf_db_v1
+2025-04-21 09:55:29.969 | INFO     | model.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-21 09:57:21.174 | INFO     | model.model_inference:predict:81 - Making Prediction!
+2025-04-21 09:57:21.189 | INFO     | __main__:main:40 - Prediction: [2180.03797518]
+2025-04-21 23:48:41.624 | INFO     | __main__:main:23 - Running the Application
+2025-04-21 23:48:41.625 | INFO     | model.model_inference:load_model:50 - Checking the existence of the model config file at model/models/rf_db_v1
+2025-04-21 23:48:41.626 | INFO     | model.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-21 23:48:49.747 | INFO     | model.model_inference:predict:81 - Making Prediction!
+2025-04-21 23:48:49.766 | INFO     | __main__:main:40 - Prediction: [2180.03797518]
