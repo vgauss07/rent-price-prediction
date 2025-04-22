@@ -1,0 +1,58 @@
+2025-04-22 00:17:39.139 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 00:17:39.140 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 00:22:51.156 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 00:22:51.157 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 00:24:30.860 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 00:35:56.284 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 00:35:56.285 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 00:35:58.642 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 00:36:23.413 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 00:36:23.419 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 00:36:23.435 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 00:36:44.576 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 00:36:44.582 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 00:36:44.594 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 00:43:18.501 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 00:43:18.501 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 00:43:19.899 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 00:54:10.850 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 00:54:10.851 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 12:40:46.621 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 12:40:46.622 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 12:40:49.085 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 12:40:49.086 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 12:41:39.198 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 12:41:46.116 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 12:41:54.586 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 12:42:17.480 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 12:42:26.389 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 12:42:33.820 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 12:42:36.015 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 12:42:44.194 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 12:42:53.567 | INFO     | services.model_inference:predict:81 - Making Prediction!
+2025-04-22 13:08:33.139 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:08:33.140 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:08:36.580 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:08:36.581 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:08:41.802 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:08:41.802 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:13:12.437 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:13:12.438 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:23:53.607 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:23:53.608 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:26:37.323 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:26:37.324 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:44:25.110 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:44:25.111 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:44:30.919 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:44:30.920 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:44:52.902 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:44:52.903 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:44:56.121 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:44:56.122 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:53:09.145 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:53:09.145 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:53:39.702 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:53:39.703 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File
+2025-04-22 13:53:41.209 | INFO     | services.model_inference:load_model:50 - Checking the existence of the model config file at model/rf_db_v1
+2025-04-22 13:53:41.210 | INFO     | services.model_inference:load_model:59 - Model rf_db_v1 Exists! ->loading Model Configuration File

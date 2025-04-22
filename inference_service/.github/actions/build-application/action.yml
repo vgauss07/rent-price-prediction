@@ -1,0 +1,38 @@
+#  The GitHub Actions workflow
+
+name: Build Application
+
+description: |
+  CI workflow for building and the app on push and PR to main
+
+runs:
+  using: composite
+
+  steps: 
+  - name: Checkout repository
+    #  run: git clone https://github.com/vgauss07/rent-price-prediction.git .
+    uses: actions/checkout@v4
+
+  - name: Set up Python 3.12
+    uses: actions/setup-python@v5
+    with:
+      python-version: '3.12'
+
+  - name: Install poetry
+    run: |
+      curl -sSL https://install.python-poetry.org | python3 - 
+      echo "PATH=$HOME/.local/bin" >> $GITHUB_PATH
+      poetry config virtualenvs.in-project true
+    shell: bash
+
+  - name: Load cached venv
+    uses: actions/cache@v4
+    id: cached-poetry-dependencies
+    with:
+      path: .venv
+      key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+
+  - name: Install dependencies using poetry
+    if: steps.cached-poetry-dependencies.outputs.cache-hit != true
+    run: poetry run make install
+    shell: bash
